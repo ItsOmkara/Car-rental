@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PKPKZ5QiA6Ta86w+fsb2TkcmfRyVX3pBnMFcV7dcLO1TAkNeTejt1HC2w==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    <!-- For Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- For Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <title>MetroRide</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Ride<b class="accent">Ease</b></h1>
+        </a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="collection.html">CARS</a>
+            <a href="index.html#about">ABOUT</a>
+            <a href="index.html#testimonials">REVIEWS</a>
+        </div>
+        <button class="btn-2" onclick="window.location.href='contact.html'">Get Started</button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <section class="contact">
+        <h1>Get in touch for Your Dream Ride!</h1>
+        <p>
+            Have questions or need assistance?Our team is here to help you find the perfect car for your adventure.
+        </p>
+         <form action="https://formspree.io/f/xlddgqyg" method="POST">
+            <input type="hidden" name="access_key" value="PUT_YOUR_ACCESS_KEY_HERE">
+            <div class="car-select">
+                <div class="car-select-item">
+                    <label for="location">Location:</label>
+                    <select name="location" class="car-select-input" id="location">
+                     <option value="California">California</option>
+                     <option value="Los Angeles">Los Angels</option>
+                     <option value="New Jersey">New Jersey</option>
+                     <option value="New York">New York</option>
+                    </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="location">Car to rent:</label>
+                    <select name="location" class="car-select-input" id="location">
+                     <option value="Mercedes-AMG GTR">Mercedes-AMG GTR</option>
+                     <option value="Lamborgini Venemo">Lamborgini Venemo</option>
+                     <option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+                     <option value="Toyota 86 - Coupe">Toyota</option>
+                    </select>
+                </div>
+                <div class="car-select-item">
+                    <label for="date">DATE:</label>
+                    <input type="date" id="date" name="date" class="car-select-input" required>
+                </div>
+            </div>
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="phone" name="phone" placeholder="Phone" required />
+                <button type="submit" class="btn-2">Submit</button>
+            </div> 
+        </form>
+        <!-- <form action="https://formspree.io/f/your_form_id" method="POST">
+            <div class="car-select">
+                <div class="car-select-item">
+                    <label for="location">Location:</label>
+                    <input type="text" name="location" id="location" class="car-select-input" placeholder="Enter location" required>
+                </div>
+                <div class="car-select-item">
+                    <label for="car">Car to rent:</label>
+                    <input type="text" name="car" id="car" class="car-select-input" placeholder="Enter car model" required>
+                </div>
+                <div class="car-select-item">
+                    <label for="date">DATE:</label>
+                    <input type="date" id="date" name="date" class="car-select-input" required>
+                </div>
+            </div>
+            <div class="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="tel" name="phone" placeholder="Phone" required />
+                <button type="submit" class="btn-2">Submit</button>
+            </div> -->
+        <!-- </form> -->
+        
+    </section>
+    <footer class="contact-footer">
+        <div class="callout">
+            <h2>Lets drive with RideEase Today!</h2>
+            <p class="callout-discription">
+                Need assistance or ready to reserve yoyr wheels? Contact us now for <br>
+                prompt service and effortless booking!
+            </p>
+            <div class="callout-buttons">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Check Our Cars</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="" class="footer-brand">Ride<b class="accent">Ease</b></a>
+            <div class="socials">
+            <a href="https://www.facebook.com" class="social-item">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" class="social-item">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" class="social-item">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://web.telegram.org" class="social-item">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
