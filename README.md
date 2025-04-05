@@ -26,13 +26,13 @@ RideEase is a sleek and user-friendly car rental platform designed to provide a 
 
 Screenshots
 ### 🏠 Homepage
-![Homepage]()
+![Homepage](HomePage.png)
 
 ### 🚗 Car Collection
-![Car Collection]()
+![Car Collection](CarCollections.png)
 
 ### Contact
-![Contact]()
+![Contact](Contact.png)
 
 Acknowledgements
 Font Awesome: For the icons used throughout the site.
