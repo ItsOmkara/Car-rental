@@ -34,6 +34,9 @@ Screenshots
 ### Contact
 ![Contact](Contact.png.png)
 
+### Footer
+![Footer](Footer.png.png)
+
 Acknowledgements
 Font Awesome: For the icons used throughout the site.
 Unsplash: For the high-quality images featured in the car collection.
