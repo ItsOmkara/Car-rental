@@ -40,4 +40,3 @@ Screenshots
 Acknowledgements
 Font Awesome: For the icons used throughout the site.
 Unsplash: For the high-quality images featured in the car collection.
-Testimonials: Heartfelt thanks to our clients for their valuable feedback.
