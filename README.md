@@ -15,7 +15,7 @@ RideEase is a sleek and user-friendly car rental platform designed to provide a 
 - **Diverse Fleet**: A wide range of vehicles catering to various preferences and requirements.
 - **Exceptional Customer Service**: Dedicated support to assist users throughout their rental experience.
 - **Responsive Design**: Optimized for devices of all sizes, ensuring a consistent experience across desktops, tablets, and smartphones.
-- **Client Testimonials**: Showcases feedback from satisfied customers to build trust and credibility.
+- **Client Testimonials**: Showcases feedback from satisfied customers to build trust and credibilities.
 
 ## Technologies Used
 
